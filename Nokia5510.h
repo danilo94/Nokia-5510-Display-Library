@@ -17,7 +17,6 @@ class Nokia5510 {
 	void WriteCharacter(char character);
   public:
 	  Nokia5510(int SCE, int RESET, int LIGHT, int DC, int SDIN, int SCLK);
-	  void InitDisplay();
 	  void DrawBitmap(char my_array[]);
 	  void DrawString(char );
 	  void DjMode();
